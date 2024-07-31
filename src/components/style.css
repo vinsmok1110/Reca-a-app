@@ -1,0 +1,53 @@
+/* Center the title and search bar */
+h2 {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style the table and header */
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style the button */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
